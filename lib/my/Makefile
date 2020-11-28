@@ -5,10 +5,9 @@
 ## make file
 ##
 
-SRC	=	my_putstr.c		\
-		my_getnbr.c		\
-		my_strcmp.c		\
-		my_strlen.c
+SRC	=	my_putstr.c	\
+		my_getnbr.c
+
 
 OBJ	=	$(SRC:.c=.o)
 
